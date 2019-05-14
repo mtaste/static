@@ -1,0 +1,224 @@
+.layout {
+	border: 1px solid #d7dde4;
+	background: #f5f7f9;
+	position: relative;
+	border-radius: 4px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.layout-header-bar {
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+.layout-logo-left {
+	width: 90%;
+	height: 30px;
+	background: #5b6270;
+	border-radius: 3px;
+	margin: 15px auto;
+}
+
+.menu-icon {
+	transition: all .3s;
+}
+
+.rotate-icon {
+	transform: rotate(-90deg);
+}
+
+.menu-item span {
+	display: inline-block;
+	overflow: hidden;
+	width: 120px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: bottom;
+	transition: width .2s ease .2s;
+}
+
+.menu-item i {
+	transform: translateX(0px);
+	transition: font-size .2s ease, transform .2s ease;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.collapsed-menu {
+	width: 100px;
+}
+
+.collapsed-menu span {
+	width: 0px;
+	transition: width .2s ease;
+}
+
+.collapsed-menu i {
+	transform: translateX(5px);
+	transition: font-size .2s ease .2s, transform .2s ease .2s;
+	vertical-align: middle;
+	font-size: 22px;
+}
+
+.infor-card-icon-con {
+	height: 100%;
+}
+
+.height-100 {
+	height: 100%;
+}
+
+.infor-card-con {
+	height: 100px;
+}
+
+.infor-intro-text {
+	font-size: 12px;
+	font-weight: 500;
+	color: #C8C8C8;
+}
+
+.pd {
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.ivu-tabs-bar {
+	margin-bottom: 5px;
+}
+
+.ivu-steps {
+	margin: 5px;
+}
+
+.ivu-steps-title {
+	cursor: pointer;
+}
+
+.i-editor-fullscreen {
+	z-index: 9999;
+}
+
+.i-editor-md-tip div {
+	z-index: 9999;
+}
+
+.history {
+	z-index: 9999;
+}
+
+.pic-upload-list {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	overflow: hidden;
+	background: #fff;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	margin-right: 4px;
+}
+
+.pic-upload-list img {
+	width: 100%;
+	height: 100%;
+}
+
+.pic-upload-list-cover {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, .6);
+}
+
+.pic-upload-list:hover .pic-upload-list-cover {
+	display: block;
+}
+
+.pic-upload-list-cover i {
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 0 2px;
+}
+
+.ivu-input-number {
+	width: 120px;
+}
+
+.badge {
+	display: inline-block;
+}
+
+.ivu-tabs .ivu-tabs-tabpane {
+	padding-left: 8px;
+	padding-right: 8px
+}
+
+.point {
+	font-size: 14px;
+	color: #2d8cf0;
+}
+
+.ivu-drawer-wrap {
+	z-index: 1000
+}
+
+.ivu-badge-count-info {
+	margin-right: -20px;
+}
+
+.ivu-tree {
+	max-height: 520px;
+	overflow-y: scroll;
+}
+
+body {
+
+	overflow-y: scroll;
+}
+.loading{
+    width: 150px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top:100px;
+    position: relative;
+    background: lightgreen;
+    -webkit-animation: changeBgColor 1.04s ease-in infinite alternate;
+}
+.loading span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: lightgreen;
+    position: absolute;
+    margin-top: -7px;
+    margin-left:-8px;
+    -webkit-animation: changePosition 1.04s ease-in infinite alternate;
+}
+@-webkit-keyframes changeBgColor{
+    0%{
+        background: lightgreen;
+    }
+    100%{
+        background: lightblue;
+    }
+}
+@-webkit-keyframes changePosition{
+    0%{
+        background: lightgreen;
+    }
+    100%{
+        margin-left: 142px;
+        background: lightblue;
+    }
+}

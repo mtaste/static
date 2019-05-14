@@ -17994,7 +17994,7 @@ exports.default = {
         addScrollEffect: function addScrollEffect() {
             this.checkScrollBar();
             this.setScrollBar();
-            document.body.style.overflow = 'hidden';
+            document.body.style.overflow = '';
         },
         removeScrollEffect: function removeScrollEffect() {
             if (this.checkMaskInVisible()) {
