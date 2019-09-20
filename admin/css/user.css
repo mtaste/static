@@ -222,3 +222,42 @@ body {
         background: lightblue;
     }
 }
+.layout-left {
+	border-radius: 3px;
+	float: left;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+
+.layout-center {
+	border-radius: 3px;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+
+.layout-rigth {
+	float: right;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+
+.disabledBody {
+	pointer-events: none;
+}
+
+.ivu-form-item-content {
+	line-height: 20px;
+}
+
+.CodeMirror-fullscreen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: auto;
+	z-index: 9;
+}
